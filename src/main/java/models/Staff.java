@@ -1,7 +1,7 @@
-package models.Staff;
+package models;
 
-import models.UserType;
-import models.Users;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Staff extends Users {
     private String employeeID;
@@ -21,5 +21,21 @@ public class Staff extends Users {
 
     public void setEmployeeID(String employeeID) {
         this.employeeID = employeeID;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
     }
 }

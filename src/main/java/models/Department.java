@@ -1,4 +1,4 @@
-package models.Staff;
+package models;
 
 public enum Department {
     MANAGEMENT, FOOD, CLEANING

@@ -1,7 +1,4 @@
-package models.Staff;
-
-import models.UserType;
-import models.Users;
+package models;
 
 public class Admin extends Users {
     private Department department;
